@@ -39,7 +39,7 @@ body {
     width: 100vw;
     height: 30vh;
     padding-top: 3em;
-    background: url("https://images.unsplash.com/photo-1531048468035-8305c2a7fe73?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80") center 75% no-repeat fixed;
+    background: url("https://images.unsplash.com/photo-1578504100920-0cbb466d3762?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60") center 75% no-repeat fixed;
     background-size: cover;
   }
   .header-tag {
@@ -67,15 +67,52 @@ body {
     float: left;
   }
   #profile-pic {
-    height: 300px;
+    height: 200px;
     width: 300px;
     object-fit: cover;
     border-radius: 0.4em;
     box-shadow: 2px 2px 2px black
+    float: left;
   }
   #about-content {
-    width: 40vw;
+    width: 30vw;
     float: right;
   }
-  
-  
+  #contact-form {
+    margin: auto;
+    margin-top: 100px;
+    width: 30vw;
+    background-color: gray;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    border-radius: .4em;
+  }
+  #contact-form input {
+    width: 90%;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #contact-form h2 {
+    color: white;
+    font-size: 28pt;
+    text-shadow: 2px 2px 2px black;
+  }
+  textarea {
+    resize: none;
+    height: 200px;
+    width: 90;
+    margin-bottom: 30px;
+  }
+  #About-Form p {
+    margin-top: 10px;
+  }
+  #About-Form h1 {
+    margin-top: 50px;
+    color: green;
+    font-size: 30pt;
+  }
+
